@@ -1,0 +1,13 @@
+title: Nắng Trong Vườn
+baseurl: ""
+
+date_format: "%d-%m-%Y"
+
+google_analytics:
+disqus_shortname:
+
+# Build settings
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
