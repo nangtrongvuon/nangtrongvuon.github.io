@@ -7,5 +7,6 @@ google_analytics:
 disqus_shortname:
 
 # Build settings
+markdown: kramdown
 extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
