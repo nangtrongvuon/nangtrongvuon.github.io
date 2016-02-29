@@ -6,9 +6,10 @@ date:   2016-02-29 9:00:00
 
 Thus begins my first post. More will come as I proceed on my journey to mastering Swift.
 
+# Constants and Variables
 I think the very basics of programming is that data is stored in constant and variables. When you make a new constant or variable, a spot in the memory is created for that specific data.
 
-```Swift
+```
 // Swift
 let a = 1
 var b = 2
@@ -21,7 +22,7 @@ The difference between a constant and a variable is that, variables can be chang
 
 You can provide Swift a *"type annotation"* when you make a constant or variable, so Swift knows what kind of value the constant or variable can store. An example is provided below.
 
-```Swift
+```
 // Swift
 var a: Int
 let b: String
@@ -31,18 +32,19 @@ This tells Swift that *a* can store an Int. So *a* can now be 100, or 10000, or 
 
 You can even do this type annotation stuff for multiple variables at once.
 
-```Swift
+```
 var a, b, c: Int
 ```
 This means *a, b, c* are all Integers.
 
+# Optionals
 So I think that was simple enough to understand. Let's talk about optionals now.
 
 One of the concepts that really tripped me in the beginning was optionals. As a person who was used to Python and various other programming languages, where the concept of optionals didn't really exist, I was surprised on seeing emotional code. You know, they have things like **!** and **?** behind variable names and methods!
 
 In *Swift*, sometimes, constants and variables may have **!** or **?** behind their names. Something like,
 
-```Swift
+```
 let optionalA: Int?
 var optionalB: Int!
 ```
@@ -53,7 +55,7 @@ var optionalB: Int!
 
 In Swift, to safely use the non-nil value (people call this, *unwrapping*), you use what is called, *optional binding*. That's kind of fancy terms for this:
 
-```Swift
+```
 // Tell Swift that optionalA can store an Integer
 var optionalA: Int?
 
