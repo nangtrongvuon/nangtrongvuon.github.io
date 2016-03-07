@@ -19,10 +19,14 @@ layout: default
 
     {% endif %}
 
-       {% if page.previous %}
+
+<div class="PageNavigation">
+          {% if page.previous %}
               <a rel="prev" href="{{ page.previous.url }}">&larr; {{page.previous.title}}</a>
           {% endif %}
+
           {% if page.next %}
-              <a rel="next" href="{{ page.next.url }}"> {{page.next.title}} &rarr;</a>
+              <a class="next" rel="next" href="{{ page.next.url }}"> {{page.next.title}} &rarr;</a>
           {% endif %}
+          </div>
 </article>

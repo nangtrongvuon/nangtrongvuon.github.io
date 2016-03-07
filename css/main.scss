@@ -19,3 +19,21 @@ $border-color: #ddd;
 @import "base";
 @import "layout";
 @import "syntax";
+
+.PageNavigation {
+  font-size: 16px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}
