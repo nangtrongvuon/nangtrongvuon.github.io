@@ -36,16 +36,16 @@ Of course, GSoC ending doesn't mean I'll stop contributing to Xi - as far as I c
 ## Contributions under GSoC
 
 ### Xi-Mac
-* **Status Bar** - [https://github.com/google/xi-mac/pull/183]
-* **Status Bar tracks plugin items** - [https://github.com/google/xi-mac/pull/210]
-* **Hide Status Bar when showing no items** - [https://github.com/google/xi-mac/pull/211]
-* **Hover View** - [https://github.com/google/xi-mac/pull/228]
-* **Small Xi-Mac Refactors** - [https://github.com/google/xi-mac/pull/214]
+* **Status Bar** - <https://github.com/google/xi-mac/pull/183>
+* **Status Bar tracks plugin items** - <https://github.com/google/xi-mac/pull/210>
+* **Hide Status Bar when showing no items** - <https://github.com/google/xi-mac/pull/211>
+* **Hover View** - <https://github.com/google/xi-mac/pull/228>
+* **Small Xi-Mac Refactors** - <https://github.com/google/xi-mac/pull/214>
 
 ### Xi-Core
-* **Tests for refactor** - [https://github.com/google/xi-editor/pull/620] 
-* **More refactor tests** - [https://github.com/google/xi-editor/pull/623]
-* **Send RPC notification on config_changed** - [https://github.com/google/xi-editor/pull/671]
-* **Add status bar RPCs** - [https://github.com/google/xi-editor/pull/677]
-* **Include plugin name with RPC** - [https://github.com/google/xi-editor/pull/725]
+* **Tests for refactor** - <https://github.com/google/xi-editor/pull/620>
+* **More tests for refactor** - <https://github.com/google/xi-editor/pull/623>
+* **Send RPC notification on config_changed** - <https://github.com/google/xi-editor/pull/671>
+* **Add status bar RPCs** - <https://github.com/google/xi-editor/pull/677>
+* **Include plugin name with RPC** - <https://github.com/google/xi-editor/pull/725>
 
