@@ -26,8 +26,10 @@ Next was tackling hover and goto definition. Both of these were well known LSP f
 
 Going beyond a simple status view, I began to dive more in depth into AppKit development, as I learned about `NSPopover`, `NSViewController`, and the many interactions and commands Mac apps tend to support. Me and Pranjal started to collaborate on hover, and with Colin's guidance throughout, we got [hover working in Xi-Mac](https://github.com/google/xi-mac/pull/228). Even though currently hover and goto definition is still quite rough around the edges, we at Xi already learned alot from implementing these - A lot of nuances that covered Xi's implementation of things such as the core and client relationship began to surface upon interaction with many LSP features.  
 
+As a result of our work, hover was implemented, but definition still needed more work on both core and client, even though a [proof of concept for the definition UI](https://github.com/google/xi-mac/pull/221) has been done. 
+
 ## Beyond GSoC
-Now, nearing the end of GSoC, as expected with the original workplan, right now I'm doing my finishing touches on the initial UI implementation for autocomplete. The base support has already been done, and now it still needs a bit more polish before it can get reviewed and merged.
+Now, nearing the end of GSoC, as expected with the original workplan, I'm doing my finishing touches on autocomplete. For definitions, there are still work to be done on core side. Once the definition behavior has settled on core, I'll do the client work, refining the UI and getting it working in Xi-Mac as well. For autocomplete, the base UI has already been done, but the autocomplete feature still needs a bit more polish and a bit more work before it can get reviewed and merged. 
 
 Overall, being with GSoC and the Xi Editor Project was a very meaningful and enjoyable experience. After all, growing up as a little kid admiring all those cool programs, I can now proudly say I'm part of that world too - the open source world. I'd also like to specially mention Colin, eagerly acting as my guide throughout every step of the way. Colin nudged me towards the right direction when I was stuck, shed insights on Xi code and practices in software engineering in general, and be there when I really needed it. To me, my period working with Colin has been the period where I've learned the most so far throughout my short beginnings as a software developer. Going through a project with a mentor at your side, that's something I think the modern software world needs more of. I believe that out of everything, *this* is worth passing on.
 
@@ -49,3 +51,5 @@ Of course, GSoC ending doesn't mean I'll stop contributing to Xi - as far as I c
 * **Add status bar RPCs** - <https://github.com/google/xi-editor/pull/677>
 * **Include plugin name with RPC** - <https://github.com/google/xi-editor/pull/725>
 
+### WIP 
+* **Autocomplete front end UI** - <https://github.com/google/xi-mac/pull/247>
